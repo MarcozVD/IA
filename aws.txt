@@ -1,0 +1,106 @@
+1. AWS Data Engineer:
+Como Data Engineer en AWS, tu enfoque será sobre cómo manejar, procesar y almacenar grandes volúmenes de datos usando los servicios de AWS. Los temas clave incluyen:
+
+Almacenamiento y Bases de Datos:
+
+S3 (Simple Storage Service): Es un almacenamiento de objetos altamente escalable. Importante para almacenar datos no estructurados. Asegúrate de conocer cómo configurar buckets, políticas de acceso y opciones de versionado.
+
+
+RDS (Relational Database Service): Es para bases de datos SQL. Conoce las diferentes opciones como MySQL, PostgreSQL, SQL Server, etc.
+
+
+DynamoDB: Base de datos NoSQL, ideal para aplicaciones con altos volúmenes de datos y baja latencia.
+
+
+Redshift: Data Warehouse de AWS, usado para análisis de grandes volúmenes de datos.
+
+
+Glue: Servicio de ETL (Extract, Transform, Load). Ayuda a mover y transformar datos.
+
+
+Athena: Servicio que permite ejecutar consultas SQL directamente sobre datos almacenados en S3 sin necesidad de moverlos.
+
+
+Procesamiento de Datos:
+
+Lambda: Para ejecutar funciones serverless. Usado para procesamiento de eventos en tiempo real.
+
+
+Kinesis: Es para procesamiento de datos en tiempo real. Puedes usarlo para ingerir, procesar y analizar flujos de datos en vivo.
+
+
+EMR (Elastic MapReduce): Plataforma para procesamiento distribuido de datos usando Apache Spark y Hadoop.
+
+
+Data Pipeline: Orquestación de datos, ideal para mover y transformar datos entre diferentes servicios de AWS.
+
+
+Otros Temas Importantes:
+
+CloudWatch: Para monitoreo y logging de las aplicaciones en AWS.
+
+
+IAM (Identity and Access Management): Gestión de permisos. Debes estar cómodo con la creación de políticas y roles para garantizar la seguridad de tus recursos.
+
+
+
+2. Cloud Foundations (Fundamentos de la Nube):
+Aquí se trata de los servicios básicos de AWS y cómo la nube funciona en general.
+
+Servicios Básicos de AWS:
+
+EC2 (Elastic Compute Cloud): Servidores virtuales que puedes escalar según la demanda.
+
+
+VPC (Virtual Private Cloud): Es una red privada dentro de AWS. Aquí defines subredes, tablas de ruteo, gateways de internet, etc.
+
+
+IAM (Identity and Access Management): Para crear usuarios, roles y políticas de acceso.
+
+
+Elastic Load Balancer (ELB): Balanceo de carga para distribuir el tráfico entre diferentes instancias EC2.
+
+
+Alta Disponibilidad y Escalabilidad:
+
+Auto Scaling: Escala automáticamente la cantidad de instancias EC2 según la demanda.
+
+
+Route 53: Servicio de DNS para gestionar tráfico a tu infraestructura, incluyendo balanceo de carga y direccionamiento de tráfico.
+
+
+CloudFront: Red de distribución de contenido (CDN) para mejorar el rendimiento en la entrega de contenido global.
+
+
+Seguridad:
+
+Security Groups y NACLs (Network Access Control Lists): Control de tráfico de red a nivel de instancia y subred.
+
+
+KMS (Key Management Service): Gestión de claves para cifrar datos.
+
+
+Arquitectura:
+
+Elastic Beanstalk: Plataforma como servicio para desplegar aplicaciones web de manera rápida.
+
+
+CloudFormation: Infraestructura como código (IaC). Permite crear y administrar recursos AWS a través de plantillas.
+
+
+S3 como almacenamiento estático: Para archivos estáticos como imágenes, videos o archivos JSON.
+
+
+
+Consejos para el examen:
+
+Lee bien las preguntas. AWS tiende a formular preguntas que evalúan tu comprensión de los servicios y cómo combinarlos para resolver un problema.
+
+
+Enfócate en los conceptos clave. No necesitas saber todos los comandos de memoria, pero entender cómo funcionan los servicios y cómo interactúan entre sí es crucial.
+
+
+Haz práctica de preguntas de exámenes previos. Asegúrate de hacer muchas preguntas de práctica para familiarizarte con el formato y el tipo de preguntas.
+
+
+Ten en cuenta la escalabilidad, seguridad y costos. AWS pone un gran énfasis en la optimización de estos tres aspectos cuando implementas soluciones.
